@@ -1,3 +1,4 @@
+import 'dart:io';
 main()
 {
   List<String> fruits = ['Apple', 'Banana', 'Mango', 'Orange', 'Grapes'];
@@ -25,4 +26,18 @@ fruits.removeRange(1, 3);
 print(fruits); 
 fruits.replaceRange(1, 3, ['cherry','peach']);
 print(fruits);
+ 
+print("Enter yourb team size");
+int teamSize=int.parse(stdin.readLineSync()!);
+List<String>teammate=[];
+for(int i=0;i<teamSize;i++)
+
+{
+  teammate.add(stdin.readLineSync()!);
+
+}
+for(int i=0;i<teammate.length;i++)
+  {
+    print(teammate[i]);
+  }
 }
