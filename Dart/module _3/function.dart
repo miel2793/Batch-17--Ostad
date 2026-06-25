@@ -1,9 +1,9 @@
-main()
-{
-  details('Miel', 20234103368);
+ main()
+ {
+    sum(5,6);
 
-}
-
- void details( String name,int id) {
-  print('Name:$name\nID:$id');
  }
+   void  sum (int a ,int b)
+   {
+      return print(a+b);
+   }
